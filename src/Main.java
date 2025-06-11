@@ -1,17 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("나는 행복합니다");
-        System.out.print("프린트함수와");
-        System.out.println("프린트 엘엔 함수의");
-        System.out.print("차이점을 찾아서");
+        System.out.printf("\"안녕하세요?\"");
+        System.out.println("안녕\n사과");
+        System.out.println("안녕\t사과");
 
-
-
-        String name = "Son";
-        int backNum = 7;
-
-        System.out.println((name + backNum).getClass().getName());//타입 확인
-
-        System.out.println((Object) backNum);
+        System.out.printf("줄바꿈 가능?");
+        System.out.printf("아니오");
+        System.out.printf("줄바꿈 가능?");
+        System.out.printf("\n아니오");
     }
 }
