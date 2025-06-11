@@ -10,6 +10,8 @@ public class Main {
         String name = "Son";
         int backNum = 7;
 
-        System.out.println((name + backNum).getClass().getClass());     //타입 확인
+        System.out.println((name + backNum).getClass().getName());//타입 확인
+
+        System.out.println((Object) backNum);
     }
 }
